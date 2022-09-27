@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Admin Dashboard Panel</title>
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <span class="logo_name">Textin</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Home</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">My Conversations</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-folder-open"></i>
+                    <span class="link-name">New Folder</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-trash-alt"></i>
+                    <span class="link-name">Trash</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-user-circle"></i>
+                    <span class="link-name">Account Setting</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-share"></i>
+                    <span class="link-name">Share</span>
+                </a></li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+
+            <img src="images/profile.jpg" alt="">
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <center>
+
+                  <div class="main">
+
+                    <ul class="cards">
+                      <li class="cards_item">
+                        <div class="card"><br>
+                          <div class="card_image"><img src="images/audio1.png" alt="" >
+                          </div><br>
+                          <div class="card_content">
+                            <h2 class="card_title">Audio Transcription</h2>
+                            <p class="card_text">Transcribe speech to text.<br>Automatic audio transcription online in a few clicks.</p>
+                            <button class="btn card_btn">Convert</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card"><br>
+                          <div class="card_image"><img src="images/video.png" alt="" />
+                          </div><br><br>
+                          <div class="card_content">
+                            <h2 class="card_title">Video Transcription</h2>
+                            <p class="card_text">Transcribe speech to text.<br>Automatic video transcription online in a few clicks.</p>
+                            <button class="btn card_btn">Convert</button>
+
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </center>
+            </div>
+
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Recent Activity</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Name</span>
+                        <span class="data-list">Recording(demo1)</span>
+                        <span class="data-list">Recording(demo2)</span>
+
+                    </div>
+                    <div class="data length">
+                        <span class="data-title">length</span>
+                        <span class="data-list">5m</span>
+                        <span class="data-list">3m</span>
+
+                    </div>
+                    <div class="data Language">
+                        <span class="data-title">Language</span>
+                        <span class="data-list">en-US</span>
+                        <span class="data-list">en-US</span>
+
+                    </div>
+                    <div class="data Upload Date">
+                        <span class="data-title">Upload Date</span>
+                        <span class="data-list">18-09-22</span>
+                        <span class="data-list">18-09-22</span>
+
+                    </div>
+                    <div class="data status">
+                        <span class="data-title">Status</span>
+                        <span class="data-list">Done</span>
+                        <span class="data-list">Remaining...</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
